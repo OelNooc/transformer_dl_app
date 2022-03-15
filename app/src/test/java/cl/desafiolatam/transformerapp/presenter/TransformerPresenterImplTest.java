@@ -1,9 +1,11 @@
 package cl.desafiolatam.transformerapp.presenter;
 
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
@@ -27,5 +29,41 @@ public class TransformerPresenterImplTest {
 
     @After
     public void tearDown() throws Exception {
+    }
+
+    @Test
+    public void setDate() {
+    }
+
+    @Test
+    public void getStringDate() {
+    }
+
+    @Test
+    public void getDaysOnly() {
+    }
+
+    @Test
+    public void getWeeksOnly() {
+    }
+
+    @Test
+    public void getTimeStamp() {
+    }
+
+    @Test
+    public void getDateFormatOne() {
+    }
+
+    @Test
+    public void getDateFormatTwo() {
+    }
+
+    @Test
+    public void getDateFormatThree() {
+    }
+
+    @Test
+    public void getDateFormatFour() {
     }
 }
